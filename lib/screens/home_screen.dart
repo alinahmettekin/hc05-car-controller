@@ -113,11 +113,12 @@ class _HomePageState extends State<HomePage>
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          'Uzaktan Araç Kontrol',
+          'HC05 Car Controller',
           style: TextStyle(fontSize: 17),
         ),
         backgroundColor: Colors.transparent,
         elevation: 0,
+        leading: IconButton(onPressed: () {}, icon: const Icon(Icons.sort)),
       ),
       body: SafeArea(
         child: Padding(
